@@ -1,6 +1,3 @@
-Berikut ini README lengkap dalam format markdown yang sudah saya tambahkan semua sesuai permintaanmu (logo/logo badge, link data CSV, dan info akun Metabase):
-
-```markdown
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)
