@@ -4,6 +4,11 @@ Berikut ini README lengkap dalam format markdown yang sudah saya tambahkan semua
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Metabase](https://img.shields.io/badge/Metabase-5D47B4?style=flat&logo=metabase&logoColor=white)
+![Data Science](https://img.shields.io/badge/Data%20Science-FF6F61?style=flat&logo=databricks&logoColor=white)
 
 ## Business Understanding
 
