@@ -75,4 +75,3 @@ Proyek ini berhasil membangun sistem prediksi dropout dengan akurasi mencapai **
 - Meningkatkan komunikasi dan bimbingan terhadap siswa dengan risiko tinggi.
 - Melakukan monitoring berkala terhadap faktor-faktor yang paling berpengaruh terhadap dropout.
 - Melanjutkan pengembangan fitur seperti integrasi dengan sistem akademik internal dan notifikasi otomatis.
-```
