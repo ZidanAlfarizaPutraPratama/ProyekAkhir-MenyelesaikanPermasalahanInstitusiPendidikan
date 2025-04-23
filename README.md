@@ -1,6 +1,3 @@
-Berikut ini README lengkap dalam format markdown yang sudah saya tambahkan semua sesuai permintaanmu (logo/logo badge, link data CSV, dan info akun Metabase):
-
-```markdown
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)
@@ -78,4 +75,3 @@ Proyek ini berhasil membangun sistem prediksi dropout dengan akurasi mencapai **
 - Meningkatkan komunikasi dan bimbingan terhadap siswa dengan risiko tinggi.
 - Melakukan monitoring berkala terhadap faktor-faktor yang paling berpengaruh terhadap dropout.
 - Melanjutkan pengembangan fitur seperti integrasi dengan sistem akademik internal dan notifikasi otomatis.
-```
