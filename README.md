@@ -1,5 +1,7 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
+📁 **Repository:** [`ProyekAkhir-MenyelesaikanPermasalahanInstitusiPendidikan`](https://github.com/ZidanAlfarizaPutraPratama/ProyekAkhir-MenyelesaikanPermasalahanInstitusiPendidikan)
+
 ![Python](https://img.shields.io/badge/python-3.10-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white)
@@ -28,9 +30,10 @@ Jaya Jaya Institut adalah sebuah institusi pendidikan berbasis teknologi (edutec
 ### Persiapan
 
 Sumber data:  
-[students_performance/data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)  
+[students_performance/data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
 
 Setup environment:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -47,6 +50,7 @@ Dashboard ini dibangun menggunakan Metabase yang terhubung ke database PostgreSQ
 - Daftar siswa dengan prediksi risiko dropout
 
 ### Akun Metabase
+
 - Email: `root@mail.com`
 - Password: `root123`
 
@@ -56,18 +60,80 @@ Dashboard ini dibangun menggunakan Metabase yang terhubung ke database PostgreSQ
 
 Sistem prototype ini dibangun menggunakan Streamlit dan dapat digunakan oleh pihak akademik untuk memprediksi status dropout siswa berdasarkan data input.
 
-Cara menjalankan:
-```bash
-streamlit run streamlit_app.py
-```
+### Langkah-Langkah Menjalankan Aplikasi Prototype
 
-🌐 Link Akses Prototype: [https://zidannnapp-dropout.streamlit.app](https://zidannnapp-dropout.streamlit.app)
+1. **Pastikan Python Sudah Terinstal**  
+   Aplikasi ini membutuhkan Python versi 3.10 atau lebih tinggi. Cek versi Python dengan perintah:
+   ```bash
+   python --version
+   ```
+
+2. **Clone atau Unduh Proyek Ini**  
+   Jika Anda belum memiliki folder proyek, unduh dari GitHub atau salin dengan git:
+   ```bash
+   git clone https://github.com/ZidanAlfarizaPutraPratama/ProyekAkhir-MenyelesaikanPermasalahanInstitusiPendidikan.git
+   cd ProyekAkhir-MenyelesaikanPermasalahanInstitusiPendidikan
+   ```
+
+3. **Buat dan Aktifkan Virtual Environment (Opsional, tapi Disarankan)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+
+4. **Install Semua Dependency**  
+   Pastikan Anda berada di dalam folder proyek dan jalankan:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Pastikan File Model dan Script Tersedia**  
+   Pastikan file `streamlit_app.py` dan model hasil pelatihan (`model.pkl` atau sejenisnya) sudah ada di direktori.
+
+6. **Jalankan Aplikasi Streamlit**  
+   Gunakan perintah berikut untuk menjalankan prototipe:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+7. **Akses Aplikasi di Browser**  
+   Setelah menjalankan perintah tersebut, browser akan otomatis membuka halaman prototipe. Jika tidak terbuka, akses secara manual melalui:
+   ```
+   http://localhost:8501
+   ```
+
+### 🔗 Akses Versi Online (Jika Tidak Ingin Install Manual)
+
+Anda juga bisa langsung mencoba prototipe tanpa menginstal apa pun melalui link berikut:
+
+🌐 [DropoutPrototype.streamlit.app](https://proyekakhir-menyelesaikanpermasalahaninstitusipendidikan.streamlit.app/)
+
+---
+
+## Visualisasi Tambahan dari Dashboard Metabase
+
+Beberapa grafik berikut memperkuat insight terkait faktor-faktor yang memengaruhi prediksi dropout siswa:
+
+- **Dropout berdasarkan Curricular Units 2nd Sem Approved**  
+  Mayoritas siswa yang dropout hanya menyelesaikan sedikit mata kuliah di semester kedua, menunjukkan korelasi antara performa semester 2 dengan dropout.
+
+- **Dropout berdasarkan Application Mode**  
+  Terdapat pola dropout yang cukup tinggi pada siswa dengan mode pendaftaran tertentu, menunjukkan bahwa cara siswa mendaftar ke institusi dapat menjadi indikator awal risiko.
+
+- **Dropout berdasarkan Kualifikasi Sebelumnya**  
+  Siswa dengan latar belakang kualifikasi rendah (bahkan nol) dari pendidikan sebelumnya menunjukkan angka dropout yang jauh lebih tinggi.
+
+- **Dropout berdasarkan Curricular Units 2nd Sem Enrolled**  
+  Semakin sedikit jumlah mata kuliah yang diambil di semester kedua, semakin besar kemungkinan siswa mengalami dropout. Hal ini bisa menjadi indikator bahwa siswa mulai kehilangan motivasi atau memiliki hambatan akademik lainnya.
+
+Dengan visualisasi ini, pihak manajemen dapat menargetkan intervensi pada semester awal dan memfokuskan perhatian pada siswa dengan ciri-ciri tersebut untuk menurunkan angka dropout secara signifikan.
 
 ---
 
 ## Conclusion
 
-Proyek ini berhasil membangun sistem prediksi dropout dengan akurasi mencapai **77%**. Model XGBoost terbukti memberikan performa terbaik berdasarkan metrik akurasi dan F1-score. Dashboard Metabase berhasil menyediakan insight visual untuk mendukung keputusan manajerial secara data-driven.
+Proyek ini berhasil membangun sistem prediksi dropout dengan akurasi mencapai **90%**. Model XGBoost terbukti memberikan performa terbaik berdasarkan metrik akurasi dan F1-score. Dashboard Metabase berhasil menyediakan insight visual untuk mendukung keputusan manajerial secara data-driven.
 
 ### Rekomendasi Action Items
 
